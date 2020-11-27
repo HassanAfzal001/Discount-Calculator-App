@@ -11,9 +11,14 @@ export default function App() {
       <Text> Hassan Afzal (FA17-BCS-031)</Text>
       <Text> Shop Discount Calculator :</Text>
       <Text> Original Price :</Text>
-      <TextInput style={styles.input} />
+      <TextInput
+        keyboardType='numeric'
+        style={styles.input}
+        placeholder='Original Price in RS/.' />
       <Text> Discount Price :</Text>
-      <TextInput style={styles.input} />
+      <TextInput
+        keyboardType='numeric'
+        style={styles.input} placeholder='Discount Price in RS/.' />
       <StatusBar style="auto" />
     </View>
   );
